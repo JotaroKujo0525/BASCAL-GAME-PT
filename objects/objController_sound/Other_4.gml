@@ -1,0 +1,1 @@
+audio_play_sound(game_mystery_sfx, 0, true);
