@@ -7,3 +7,5 @@ line_sep = 12;
 line_width = textbox_width - border*2;
 txb_spr = spr_dialogue_box;
 txb_img = 0;
+correct = false;
+answered = 0;

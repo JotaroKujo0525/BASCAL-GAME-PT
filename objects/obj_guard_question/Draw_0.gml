@@ -20,16 +20,17 @@ if draw_char < text_length[page] {
 	draw_char = clamp(draw_char, 0, text_length[page]);
 }
 
-if accept_key  {
+if accept_key {
 	if draw_char == text_length[page] {
 		if page	< page_number-1 {
 			page++;
 			draw_char =	0;
 		}
 	else {
-		instance_destroy();
+		instance_destroy(obj_guard_question);
 		instance_create_depth(0,0, -9999, obj_input_box);
 	}
+	
 	
 	}
 	else {
