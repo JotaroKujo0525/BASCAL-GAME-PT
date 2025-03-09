@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"BASCAL-PT",
-    "path":"BASCAL-PT.yyp",
+    "name":"Sprite_floor_wall_gelo",
+    "path":"folders/Sprite_floor_wall_gelo.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

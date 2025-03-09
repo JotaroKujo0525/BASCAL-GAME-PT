@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"BASCAL-PT",
-    "path":"BASCAL-PT.yyp",
+    "name":"Sprite_floor_wall_gelo",
+    "path":"folders/Sprite_floor_wall_gelo.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
