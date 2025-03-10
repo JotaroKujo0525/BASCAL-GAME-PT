@@ -19,7 +19,7 @@ if (place_meeting(obj_eden.x - 5, y, obj_eden)) && !instance_exists(obj_textbox)
 
 if(obj_eden.move_spd = 0 && !instance_exists(obj_textbox) && text_shown = true) {
 	if (!instance_exists(obj_warp)) {
-		warp_room(24, 88, rm_mfc_outside);
+		warp_room(134, 181, rm_engineer_room);
 	}
 		obj_eden.move_spd = 1;
 	}

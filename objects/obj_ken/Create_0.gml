@@ -1,2 +1,2 @@
 text_shown = false;
-image_index = 1;
+sprite_index = spr_ken_left;

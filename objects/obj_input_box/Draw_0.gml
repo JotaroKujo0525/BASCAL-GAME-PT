@@ -10,7 +10,7 @@ draw_sprite_ext(txb_spr, txb_img, textbox_x + 32, textbox_y, textbox_width/txtb_
 draw_text_ext(textbox_x + 32 + border, textbox_y + border, text, line_sep, line_width);
 //draw_text(textbox_x, textbox_y, text);
 
-if (text == "6x+6" && keyboard_check_pressed(vk_enter)) {
+if (text == "6x+6" && keyboard_check_pressed(vk_enter) && room == rm_mfc_outside) {
 	instance_destroy(obj_input_box);
 	instance_destroy(inst_230AE5FA);
 	correct = true;
@@ -19,6 +19,18 @@ if (text == "6x+6" && keyboard_check_pressed(vk_enter)) {
 		scr_text("Correct! You may now enter Manila Film Center!")
 	}
 	answered = true
+}
+}
+
+if (text == "600x" && keyboard_check_pressed(vk_enter) && room == rm_engineer_room) {
+	instance_destroy(obj_input_box);
+	correct = true;
+	if (correct = true) {
+	with (instance_create_depth(0,0, -9999, obj_textbox)) {
+		scr_text("Correct! A text from the blueprint says:\nFind the key.")
+	}
+	answered = true
+	
 }
 }
 

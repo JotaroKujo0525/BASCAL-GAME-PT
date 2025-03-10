@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Sprite_gelo1",
-    "path":"sprites/Sprite_gelo1/Sprite_gelo1.yy",
+    "name":"Sprite_gelo3",
+    "path":"sprites/Sprite_gelo3/Sprite_gelo3.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":4,
+  "tile_count":5,
 }
