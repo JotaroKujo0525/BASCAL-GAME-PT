@@ -28,7 +28,6 @@ if accept_key {
 		}
 	else {
 		instance_destroy(obj_guard_question);
-		instance_create_depth(0,0, -9999, obj_input_box);
 	}
 	
 	

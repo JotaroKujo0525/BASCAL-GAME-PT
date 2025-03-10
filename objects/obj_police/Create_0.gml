@@ -1,1 +1,1 @@
-eden_close = false
+text_shown = false;

@@ -1,3 +1,3 @@
-target_x = 5;
-target_y = 9;
-target_rm = rm_apartment;
+target_x = 254;
+target_y = 757;
+target_rm = rm_mfc_inside;

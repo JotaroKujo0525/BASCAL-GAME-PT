@@ -4,7 +4,7 @@ if (state == 0 ){
 }
    
     //Change Room
-if (timer >= Fadein){
+if (timer >= duration){
 	room_goto(targetRoom);
     //Set State
     state = 1;
@@ -20,4 +20,4 @@ else if (state == 1){
     }
 }
 
-alpha = timer / Fadein;
+alpha = timer / duration;
