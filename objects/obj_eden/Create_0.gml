@@ -10,3 +10,5 @@ sprite[LEFT] = spr_eden_left;
 sprite[DOWN] = spr_eden_down;
 
 face = DOWN;
+
+key_collected = false;

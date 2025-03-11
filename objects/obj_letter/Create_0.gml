@@ -1,0 +1,13 @@
+textbox_width = 212;
+textbox_height = 148;
+border = 32;
+line_sep = 12;
+line_width = textbox_width - border*2;
+txb_spr = Sprite_Item15_paper4;
+txb_spr_note = spr_hint_text;
+txb_img = 0;
+txb_imgspd = 0;
+page = 0;
+text[0] = "";
+text_length[0] = string_length(text[0]);
+draw_char = 0;

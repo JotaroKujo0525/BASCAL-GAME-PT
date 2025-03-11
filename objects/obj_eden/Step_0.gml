@@ -21,6 +21,13 @@ if place_meeting(x, y + yspd, obj_test_wall) {
 //if place_meeting(x, y + yspd, obj_table) {
 //	yspd = 0;
 //}
+if place_meeting(x + xspd, y, obj_wall_lock) {
+	xspd = 0;
+}
+
+if place_meeting(x, y + yspd, obj_wall_lock) {
+	yspd = 0;
+}
 
 x += xspd;
 y += yspd;
