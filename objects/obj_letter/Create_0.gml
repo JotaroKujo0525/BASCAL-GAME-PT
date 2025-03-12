@@ -11,4 +11,3 @@ page = 0;
 text[0] = "";
 text_length[0] = string_length(text[0]);
 draw_char = 0;
-shown = false;

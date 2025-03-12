@@ -18,12 +18,8 @@ if (text == "6x+6" && keyboard_check_pressed(vk_enter) && room == rm_mfc_outside
 	with (instance_create_depth(0,0, -9999, obj_textbox)) {
 		scr_text("Correct! You may now enter Manila Film Center!")
 	}
-	answered = true;
+	answered = true
 }
-} else if (text != "6x+6" && keyboard_check_pressed(vk_enter) && room == rm_mfc_outside){
-	with (instance_create_depth(0,0, -9999, obj_textbox)) {
-		scr_text("Wrong! Please answer again.")
-	}
 }
 
 if (text == "600x" && keyboard_check_pressed(vk_enter) && room == rm_engineer_room) {
@@ -33,30 +29,9 @@ if (text == "600x" && keyboard_check_pressed(vk_enter) && room == rm_engineer_ro
 	with (instance_create_depth(0,0, -9999, obj_textbox)) {
 		scr_text("Correct! A text from the blueprint says:\nFind the key.")
 	}
-	answered = true;
+	answered = true
 	
 }
-} else if (text != "600x" && keyboard_check_pressed(vk_enter) && room == rm_engineer_room){
-	with (instance_create_depth(0,0, -9999, obj_textbox)) {
-		scr_text("Wrong! Please answer again.")
-	}
-}
-
-if (text == "ADDIE" && keyboard_check_pressed(vk_enter) && room == rm_engineer_room) {
-	instance_destroy(obj_input_box);
-	correct = true;
-	if (correct = true) {
-	with (instance_create_depth(0,0, -9999, obj_textbox)) {
-		scr_text("Correct! The vault opens.")
-	}
-	answered = true;
-	instance_destroy(obj_wall_lock);
-	
-}
-} else if (text != "ADDIE" && keyboard_check_pressed(vk_enter) && room == rm_engineer_room){
-	with (instance_create_depth(0,0, -9999, obj_textbox)) {
-		scr_text("Wrong! Please answer again.")
-	}
 }
 
 
