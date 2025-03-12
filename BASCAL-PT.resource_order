@@ -43,6 +43,7 @@
     {"name":"oControllerworoom","order":6,"path":"objects/oControllerworoom/oControllerworoom.yy",},
     {"name":"TEST_PLAYER_OBJ","order":1,"path":"objects/TEST_PLAYER_OBJ/TEST_PLAYER_OBJ.yy",},
     {"name":"tsting_lng","order":21,"path":"objects/tsting_lng/tsting_lng.yy",},
+    {"name":"rm_apartment_1","order":12,"path":"rooms/rm_apartment_1/rm_apartment_1.yy",},
     {"name":"rm_engineer_room","order":10,"path":"rooms/rm_engineer_room/rm_engineer_room.yy",},
     {"name":"rm_mfc_inside_1","order":11,"path":"rooms/rm_mfc_inside_1/rm_mfc_inside_1.yy",},
     {"name":"rm_mfc_inside","order":9,"path":"rooms/rm_mfc_inside/rm_mfc_inside.yy",},

@@ -16,4 +16,10 @@ draw_sprite(txb_spr, 0, 108, 188);
 if place_meeting(108, 188, obj_eden) {
 draw_sprite_ext(txb_spr_note, txb_img, textbox_x + 32, textbox_y, 1, 1, 0, c_white, 1);
 //draw_text_ext(textbox_x + 40 + border, textbox_y + border, text[0], line_sep, line_width);
+obj_eden.move_spd = 0;
+shown = true;
+if (obj_eden.move_spd = 0 && shown = true && room == rm_mfc_inside_1 && keyboard_check_pressed(vk_space)) {
+	global.vault_get_hint = true;
+	warp_room(70, 142, rm_apartment_1);
+}
 }

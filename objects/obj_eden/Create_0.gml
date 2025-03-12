@@ -12,3 +12,4 @@ sprite[DOWN] = spr_eden_down;
 face = DOWN;
 
 key_collected = false;
+global.vault_get_hint = false;

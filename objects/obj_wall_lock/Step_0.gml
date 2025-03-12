@@ -5,3 +5,6 @@ if (obj_eden.key_collected = true && keyboard_check_pressed(vk_space) && place_m
 		scr_text("The door is locked.")
 	}
 }
+
+if (global.vault_get_hint = true && keyboard_check_pressed(vk_space) && place_meeting(x,y, obj_eden) && room == rm_apartment) {
+	instance_create_depth(0,0,-9999,obj_input_box);
