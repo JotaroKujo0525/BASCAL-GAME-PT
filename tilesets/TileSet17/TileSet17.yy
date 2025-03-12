@@ -1,19 +1,19 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet12",
+  "%Name":"TileSet17",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet12",
+  "name":"TileSet17",
   "out_columns":0,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Sprite_Item_evidence_gelo",
-    "path":"folders/Sprite_Item_evidence_gelo.yy",
+    "name":"BASCAL-PT",
+    "path":"BASCAL-PT.yyp",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
