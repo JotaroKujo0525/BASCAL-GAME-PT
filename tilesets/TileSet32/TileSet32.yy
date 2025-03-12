@@ -1,23 +1,26 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet12",
+  "%Name":"TileSet32",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet12",
-  "out_columns":0,
+  "name":"TileSet32",
+  "out_columns":2,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Sprite_Item_evidence_gelo",
-    "path":"folders/Sprite_Item_evidence_gelo.yy",
+    "name":"BASCAL-PT",
+    "path":"BASCAL-PT.yyp",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite_item18_tape1",
+    "path":"sprites/Sprite_item18_tape1/Sprite_item18_tape1.yy",
+  },
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",
@@ -31,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":0,
+  "tile_count":4,
 }
