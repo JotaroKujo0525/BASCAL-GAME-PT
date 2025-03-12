@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Sprite_floor_wall_gelo",
-    "path":"folders/Sprite_floor_wall_gelo.yy",
+    "name":"Sprite_Item_evidence_gelo",
+    "path":"folders/Sprite_Item_evidence_gelo.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
