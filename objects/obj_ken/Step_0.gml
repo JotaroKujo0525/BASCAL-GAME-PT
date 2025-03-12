@@ -15,9 +15,29 @@ if (place_meeting(obj_eden.x - 5, y, obj_eden)) && !instance_exists(obj_textbox)
 	obj_eden.move_spd = 0;
 	text_shown = true;
 	
+} else if (place_meeting(obj_eden.x - 5, y, obj_eden)) && !instance_exists(obj_textbox) && text_shown = false && global.vault_get_hint = true {
+	with (instance_create_depth(0,0, -9999, obj_textbox)) {
+		scr_text("Eden:\nKen! May nahanap akong clue!")
+		scr_text("Ken:\nAno yun Eden?")
+		scr_text("Eden:\nMeron daw ditong vault! Hindi ko nga lang alam kung ano ang nakalagay doon")
+		scr_text("Ken:\nVault?! Baka delikado yan? Hindi kaya dapat tumigil na tayo")
+		scr_text("Eden:\nBakit ngayon pa?")
+		scr_text("..")
+		scr_text("...")
+		scr_text("....")
+		scr_text("Ken:\nSige, titingin nalang ako kung ano ba yung mga kailangan pa nating gawin.")
+		scr_text("Eden:\nSalamat Ken!")
+	}
+	obj_eden.move_spd = 0;
+	text_shown = true;
+	
 }
 
-if(obj_eden.move_spd = 0 && !instance_exists(obj_textbox) && text_shown = true) {
+if(obj_eden.move_spd = 0 && !instance_exists(obj_textbox) && text_shown = true && global.vault_get_hint = true) {
+	obj_eden.move_spd = 1;
+}
+	
+if(obj_eden.move_spd = 0 && !instance_exists(obj_textbox) && text_shown = true && global.vault_get_hint = false) {
 	if (!instance_exists(obj_warp)) {
 		warp_room(134, 181, rm_engineer_room);
 	}
