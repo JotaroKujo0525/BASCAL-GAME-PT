@@ -3,7 +3,7 @@ with (instance_create_depth(0,0,-9999, obj_textbox)) {
 	scr_text("Enginner:\nKamusta kayo? Ito na ang blueprint na hinahanap ninyo.")
 	scr_text("Engineer:\nPero hindi nyo agad makikita ang mga nakalagay dyan")
 	scr_text("Engineer:\nKailangan ninyo muna lutasin ang problemang ito")
-	scr_text("What is the fourth derivative of:\n5x^5+7x^3+2x^2+4x+8?")
+	scr_text("What is the third derivative of:\n(4x+6)(x^2+5)?")
 	}
 	text_shown = true;
 }

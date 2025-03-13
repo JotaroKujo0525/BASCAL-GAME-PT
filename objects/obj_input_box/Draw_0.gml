@@ -26,7 +26,7 @@ if (text == "6x+6" && keyboard_check_pressed(vk_enter) && room == rm_mfc_outside
 	}
 }
 
-if (text == "600x" && keyboard_check_pressed(vk_enter) && room == rm_engineer_room) {
+if (text == "24" && keyboard_check_pressed(vk_enter) && room == rm_engineer_room) {
 	instance_destroy(obj_input_box);
 	correct = true;
 	if (correct = true) {
@@ -36,7 +36,7 @@ if (text == "600x" && keyboard_check_pressed(vk_enter) && room == rm_engineer_ro
 	answered = true;
 	
 }
-} else if (text != "600x" && keyboard_check_pressed(vk_enter) && room == rm_engineer_room){
+} else if (text != "24" && keyboard_check_pressed(vk_enter) && room == rm_engineer_room){
 	with (instance_create_depth(0,0, -9999, obj_textbox)) {
 		scr_text("Wrong! Please answer again.")
 	}
