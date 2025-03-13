@@ -30,6 +30,9 @@ if accept_key {
 		}
 	else {
 		instance_destroy();
+		if (room == Room3) {
+			room_goto(rm_end_screen)
+		}
 	}
 	
 	}

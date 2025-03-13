@@ -227,8 +227,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_apartment","path":"rooms/rm_apartment/rm_apartment.yy",},},
-    {"roomId":{"name":"rm_end_screen","path":"rooms/rm_end_screen/rm_end_screen.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
+    {"roomId":{"name":"rm_end_screen","path":"rooms/rm_end_screen/rm_end_screen.yy",},},
     {"roomId":{"name":"rm_mfc_inside","path":"rooms/rm_mfc_inside/rm_mfc_inside.yy",},},
     {"roomId":{"name":"rm_mfc_outside","path":"rooms/rm_mfc_outside/rm_mfc_outside.yy",},},
     {"roomId":{"name":"rm_engineer_room","path":"rooms/rm_engineer_room/rm_engineer_room.yy",},},
