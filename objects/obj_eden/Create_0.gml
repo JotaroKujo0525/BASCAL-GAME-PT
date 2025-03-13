@@ -11,5 +11,12 @@ sprite[DOWN] = spr_eden_down;
 
 face = DOWN;
 
-key_collected = false;
+global.key_collected = false;
 global.vault_get_hint = false;
+global.spawn_x = 0;
+global.spawn_y = 0;
+global.key_get_hint = false;
+global.vault_answered = false;
+ken_assurance = false;
+global.bgm = sfx_tprwrtr;
+global.bgmpos = 0;

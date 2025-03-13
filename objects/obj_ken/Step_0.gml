@@ -1,4 +1,4 @@
-if (place_meeting(obj_eden.x - 5, y, obj_eden)) && !instance_exists(obj_textbox) && text_shown = false {
+if (place_meeting(obj_eden.x - 5, y, obj_eden)) && !instance_exists(obj_textbox) && text_shown = false && global.key_get_hint = false && global.vault_get_hint = false && obj_eden.ken_assurance = false {
 	with(instance_create_depth(0,0,-9999, obj_textbox)) {
 		scr_text("Ken:\nEden! ")
 		scr_text("Eden:\nPano mo ako nakilala? Bakit mo alam ang nais kong tuklasin? Sino ka ba talaga?")
@@ -31,6 +31,12 @@ if (place_meeting(obj_eden.x - 5, y, obj_eden)) && !instance_exists(obj_textbox)
 	obj_eden.move_spd = 0;
 	text_shown = true;
 	
+} else if (place_meeting(obj_eden.x - 5, y, obj_eden)) && !instance_exists(obj_textbox) && text_shown = false && global.vault_get_hint = false && global.key_get_hint = true && obj_eden.ken_assurance = true {
+	with(instance_create_depth(0,0,-9999,obj_textbox)) {
+		scr_text("Ken:\nAndito lang ako at magbabantay, Eden.")
+	}
+	text_shown = true;
+	assurance_haha = true;
 }
 
 if(obj_eden.move_spd = 0 && !instance_exists(obj_textbox) && text_shown = true && global.vault_get_hint = true) {
@@ -43,3 +49,4 @@ if(obj_eden.move_spd = 0 && !instance_exists(obj_textbox) && text_shown = true &
 	}
 		obj_eden.move_spd = 1;
 	}
+

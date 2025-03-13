@@ -29,6 +29,8 @@ if place_meeting(x, y + yspd, obj_wall_lock) {
 	yspd = 0;
 }
 
+
+
 x += xspd;
 y += yspd;
 
@@ -50,3 +52,7 @@ sprite_index = sprite[face];
 if xspd = 0 && yspd = 0 {
 image_index = 0;
 };
+
+if (global.key_get_hint = true) {
+	ken_assurance = true;
+}

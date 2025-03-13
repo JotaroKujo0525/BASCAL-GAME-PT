@@ -12,4 +12,5 @@ if (text_shown == true && answered = false && !instance_exists(obj_input_box) &&
 	
 	instance_create_depth(0,0,-9999, obj_input_box);
 	answered = true;
+	global.key_get_hint = true;
 }

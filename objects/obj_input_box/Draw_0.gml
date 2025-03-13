@@ -31,7 +31,7 @@ if (text == "600x" && keyboard_check_pressed(vk_enter) && room == rm_engineer_ro
 	correct = true;
 	if (correct = true) {
 	with (instance_create_depth(0,0, -9999, obj_textbox)) {
-		scr_text("Correct! A text from the blueprint says:\nFind the key.")
+		scr_text("Correct! A text from the blueprint says:\nFind the Gate Key.")
 	}
 	answered = true;
 	
@@ -42,7 +42,7 @@ if (text == "600x" && keyboard_check_pressed(vk_enter) && room == rm_engineer_ro
 	}
 }
 
-if (text == "ADDIE" && keyboard_check_pressed(vk_enter) && room == rm_engineer_room) {
+if (text == "ADDIE" && keyboard_check_pressed(vk_enter) && room == Domain_8) {
 	instance_destroy(obj_input_box);
 	correct = true;
 	if (correct = true) {
@@ -51,9 +51,16 @@ if (text == "ADDIE" && keyboard_check_pressed(vk_enter) && room == rm_engineer_r
 	}
 	answered = true;
 	instance_destroy(obj_wall_lock);
+	global.vault_answered = true;
+	obj_gate_lock.image_speed = 1;
+	if (obj_gate_lock.image_index > 0) {
+	if (obj_gate_lock.image_index >= obj_gate_lock.image_number - 1) {
+		obj_gate_lock.image_speed = 0;
+	}
+}
 	
 }
-} else if (text != "ADDIE" && keyboard_check_pressed(vk_enter) && room == rm_engineer_room){
+} else if (text != "ADDIE" && keyboard_check_pressed(vk_enter) && room == Domain_8){
 	with (instance_create_depth(0,0, -9999, obj_textbox)) {
 		scr_text("Wrong! Please answer again.")
 	}

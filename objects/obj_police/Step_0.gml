@@ -15,3 +15,5 @@ if (text_shown == true && !instance_exists(obj_guard_question) && obj_eden.move_
 	instance_destroy(obj_guard_question);
 	instance_create_depth(0,0, -9999, obj_input_box);
 }
+
+

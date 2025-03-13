@@ -1,4 +1,18 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_gate_lock","order":1,"path":"objects/obj_gate_lock/obj_gate_lock.yy",},
+    {"name":"obj_ken_1","order":2,"path":"objects/obj_ken_1/obj_ken_1.yy",},
+    {"name":"Domain_10","order":3,"path":"rooms/Domain_10/Domain_10.yy",},
+    {"name":"Domain_11","order":4,"path":"rooms/Domain_11/Domain_11.yy",},
+    {"name":"Domain_12","order":5,"path":"rooms/Domain_12/Domain_12.yy",},
+    {"name":"Domain_13","order":6,"path":"rooms/Domain_13/Domain_13.yy",},
+    {"name":"Domain_14","order":7,"path":"rooms/Domain_14/Domain_14.yy",},
+    {"name":"Domain_8","order":1,"path":"rooms/Domain_8/Domain_8.yy",},
+    {"name":"Domain_9","order":2,"path":"rooms/Domain_9/Domain_9.yy",},
+    {"name":"rm_end_screen","order":3,"path":"rooms/rm_end_screen/rm_end_screen.yy",},
+    {"name":"rm_mfc_inside_1","order":2,"path":"rooms/rm_mfc_inside_1/rm_mfc_inside_1.yy",},
+    {"name":"transition","order":1,"path":"sounds/transition/transition.yy",},
+    {"name":"end_screen","order":4,"path":"sprites/end_screen/end_screen.yy",},
+  ],
 }
